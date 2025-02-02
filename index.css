@@ -123,3 +123,9 @@ body {
   line-height: 1.5;
   font-weight: 400;
 }
+
+@media (max-width: 500px) {
+  body {
+    padding: 0 20px;
+  }
+}
