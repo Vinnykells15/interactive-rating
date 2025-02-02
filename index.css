@@ -1,0 +1,125 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: "Overpass";
+}
+
+.head {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.star {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.question {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.explain {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+}
+
+.circle.active {
+  background-color: white !important;
+  color: hsl(216, 12%, 8%) !important;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: hsl(25, 97%, 53%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 11px;
+  border-radius: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: hsl(216, 12%, 8%);
+}
+
+.button:hover {
+  background-color: white;
+  color: hsl(216, 12%, 8%);
+}
+
+.thank-you-card {
+  display: none;
+}
+
+.tail {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.confirm-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.selection {
+  padding: 5px 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 0.83rem;
+  font-weight: 400;
+}
+
+.appreciation {
+  color: white;
+}
+
+.bless {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
